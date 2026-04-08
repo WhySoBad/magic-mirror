@@ -77,6 +77,11 @@ features = ["from-source"]
 default = []
 moltenvk_static = ["dep:ash-molten"]
 tracy = ["tracy-client/enable"]
+ffmpeg_build_licensed = [
+    "ffmpeg_build",
+    "ffmpeg-sys-next/build-license-nonfree",
+    "ffmpeg-sys-next/build-license-gpl",
+]
 ffmpeg_build = [
     "ffmpeg-next/build",
     "ffmpeg-sys-next/build",
@@ -89,8 +94,6 @@ ffmpeg_build = [
     "ffmpeg-sys-next/build-lib-vpx",
     "ffmpeg-sys-next/build-lib-dxva2",
     "ffmpeg-sys-next/build-lib-dav1d",
-    "ffmpeg-sys-next/build-license-gpl",
-    "ffmpeg-sys-next/build-license-nonfree",
     "ffmpeg-sys-next/build-mediacodec",
     "ffmpeg-sys-next/build-vaapi",
     "ffmpeg-sys-next/build-videotoolbox",
