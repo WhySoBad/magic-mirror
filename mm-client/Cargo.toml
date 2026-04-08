@@ -81,15 +81,15 @@ ffmpeg_build_licensed = [
     "ffmpeg_build",
     "ffmpeg-sys-next/build-license-nonfree",
     "ffmpeg-sys-next/build-license-gpl",
+    "ffmpeg-sys-next/build-lib-x265",
+    "ffmpeg-sys-next/build-lib-x264",
+    "ffmpeg-sys-next/build-lib-xvid"
 ]
 ffmpeg_build = [
     "ffmpeg-next/build",
     "ffmpeg-sys-next/build",
     "ffmpeg-sys-next/build-vulkan",
     "ffmpeg-sys-next/build-drm",
-    "ffmpeg-sys-next/build-lib-x265",
-    "ffmpeg-sys-next/build-lib-x264",
-    "ffmpeg-sys-next/build-lib-xvid",
     "ffmpeg-sys-next/build-lib-webp",
     "ffmpeg-sys-next/build-lib-vpx",
     "ffmpeg-sys-next/build-lib-dxva2",
